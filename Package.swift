@@ -12,38 +12,47 @@ let package = Package(
     products: [
         .library(
             name: "Adyen",
+            type: .dynamic,
             targets: ["Adyen"]
         ),
         .library(
             name: "AdyenEncryption",
+            type: .dynamic,
             targets: ["AdyenEncryption"]
         ),
         .library(
             name: "AdyenSwiftUI",
+            type: .dynamic,
             targets: ["AdyenSwiftUI"]
         ),
         .library(
             name: "AdyenActions",
+            type: .dynamic,
             targets: ["AdyenActions"]
         ),
         .library(
             name: "AdyenCard",
+            type: .dynamic,
             targets: ["AdyenCard"]
         ),
         .library(
             name: "AdyenComponents",
+            type: .dynamic,
             targets: ["AdyenComponents"]
         ),
         .library(
             name: "AdyenSession",
+            type: .dynamic,
             targets: ["AdyenSession"]
         ),
         .library(
             name: "AdyenDropIn",
+            type: .dynamic,
             targets: ["AdyenDropIn"]
         ),
         .library(
             name: "AdyenWeChatPay",
+            type: .dynamic,
             targets: ["AdyenWeChatPay"]
         )
     ],
